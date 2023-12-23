@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-image: url(./assets/bg.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1390px, 100vw);
+    height: 83vh;
+    position: relative;
+}
+
+.box {
+    height: 83vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 10.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 78vw;
+    margin: auto;
+}
+
+.nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    font-family: 'Martel Sans', sans-serif;
+    height: 79%;
+    color: white;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.T1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.T2 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.T3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: light;
+}
+.line{
+    height: 9px;
+    width: 100%;
+    background-color: rgb(35 35 35);
+}
+.language{
+    height: 38px;
+    width: 135px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signin{
+    height: 40px;
+    width: 85px;
+    background-color: rgb(229 9 20);
+    margin: 0 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: 20px;
+}
+.email{
+    height: 50px;
+    width: 350px;
+    padding: 1px 20px 1px 15px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.getstarted{
+    height: 55px;
+    width: 200px;
+    background-color: rgb(229 9 20);
+    color: white;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section1{
+    height:78vh;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sectext1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Enjoy{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.Watch{
+    font-size: 24px;
+}
+.Img{
+    position: relative;
+}
+.sec_1_img{
+    position: relative;
+    z-index: 10;
+}
+.sec_1_vid{
+    position: absolute;
+    top: 100px;
+    right: 80px;
+}
